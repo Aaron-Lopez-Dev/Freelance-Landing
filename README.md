@@ -1,7 +1,7 @@
 # Personal Freelance Landing Page
 
-Angular v20
-Tailwind CSS
+Angular v20 <br>
+Tailwind CSS <br>
 Vanilla CSS
 
 ## Development server
