@@ -1,0 +1,11 @@
+      <div class="card-container">
+  
+        @for (c of flow; track $index) {
+        <div class="brutalist-card">
+          <div class="brutalist-card__header">
+            <div class="brutalist-card__alert">{{c.service}}</div>
+          </div>
+          <div class="brutalist-card__message text-left">{{c.about}}</div>
+        </div>
+        }
+      </div>

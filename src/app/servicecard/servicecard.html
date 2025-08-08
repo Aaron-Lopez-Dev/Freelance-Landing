@@ -1,0 +1,13 @@
+<div class="service-section">
+@for (item of services; track $index) {
+
+<div class="card">
+  <div class="head"><span [innerHTML]="item.icon"></span> {{item.service}}</div>
+  <div class="content">
+        {{item.description}}
+    <br />
+   <!--  <button class="button">Button</button> -->
+  </div>
+</div>
+}
+</div>
