@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Servicecard } from "../servicecard/servicecard";
+import { Servicecard } from "../service-card/servicecard";
 
 @Component({
   selector: 'app-services',

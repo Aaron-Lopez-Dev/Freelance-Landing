@@ -13,6 +13,9 @@ export class FlowCard {
   },{
     "service":"Website Development",
     "about": "Fully Responsive on Desktop, Tablet, and Mobile"
+  },{
+    "service":"Hosting",
+    "about":"Host your website no problem"
   }
 ]
 }

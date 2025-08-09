@@ -1,14 +1,15 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { Navbar } from "./navbar/navbar";
-import { Services } from "./services/services";
-import { ServiceFlow } from "./service-flow/service-flow";
+import { Services } from "./service-section/services";
+import { ServiceFlow } from "./service-flow-section/service-flow";
 import { Hero } from "./hero/hero";
+import { AboutMe } from "./about-me/about-me";
 
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Navbar, Services, ServiceFlow, Hero],
+  imports: [RouterOutlet, Navbar, Services, ServiceFlow, Hero, AboutMe],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
