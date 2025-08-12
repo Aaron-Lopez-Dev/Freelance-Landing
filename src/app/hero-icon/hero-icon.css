@@ -1,0 +1,5 @@
+svg{
+    width: calc(25rem + 6vw);
+}
+/* 
+  font-size: clamp(3rem, 6vw + 1rem, 9rem); */

@@ -1,4 +1,5 @@
 .outer{
     height: 100vh;
     width: 100%;
+    border-bottom: 4px solid black;
 }
