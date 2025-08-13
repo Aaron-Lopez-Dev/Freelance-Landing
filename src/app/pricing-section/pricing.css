@@ -2,7 +2,6 @@
   width: 100%;
   height: fit-content;
   background-color: var(--primary-yellow);
-  border: 2px solid white;
 }
 
 .inner {
@@ -10,16 +9,20 @@
   margin: auto;
   max-width: 1000px;
   display: flex;
-  border: 2px solid white;
 }
 .pricing-text,
 .pricing-card {
   width: 50%;
   height: fit-content;
   padding: 10px;
-  border: 2px solid blue;
+  margin: auto;
 }
-
+h2{
+  font-size: 6rem;
+  line-height: .8;
+  margin: auto;
+  text-align: center;
+}
 @media screen and (max-width: 700px) {
   .inner {
     flex-direction: column;
@@ -27,5 +30,9 @@
   .pricing-text,
   .pricing-card {
     width: 100%;
+  }
+
+  h2{
+    margin: 20px auto 10px auto;
   }
 }

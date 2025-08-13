@@ -15,7 +15,6 @@
   width: 90vw;
   display: flex;
   flex-direction: row;
-  margin: auto;
 }
 .heading {
   display: flex;
@@ -30,9 +29,6 @@
 }
 h2 {
   font-size: 4rem;
-  font-family: "Staatliches", sans-serif;
-  font-weight: 400;
-  font-style: normal;
   width: 100%;
   max-width: 1000px;
   margin: auto;
@@ -40,9 +36,6 @@ h2 {
 }
 h3 {
   font-size: 2rem;
-  font-family: sans-serif;
-  font-family: "Staatliches", sans-serif;
-  font-weight: 400;
   font-style: normal;
   font-weight: bold;
 }
@@ -54,8 +47,9 @@ hr {
 }
 
 .service-flow {
-  width: 90vw;
+  width: 50%;
   margin: auto;
+
 }
 
 .photo {
@@ -63,16 +57,20 @@ hr {
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 @media screen and (max-width: 1200px) {
-  .photo{
+  .photo {
     display: none;
   }
-  h2{
-    font-size: 3rem;
-    text-align: center
+  .service-flow{
+    width: 90vw;
   }
-  h3{
+  h2 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  h3 {
     font-size: 1.5rem;
   }
 }

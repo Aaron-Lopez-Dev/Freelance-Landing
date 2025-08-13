@@ -9,7 +9,7 @@
   --shadow-color: #000000;
   --pattern-color: #cfcfcf;
 
-  margin: auto;
+  margin: 50px auto;
   position: relative;
   width: 20em;
   background: var(--bg);
@@ -387,4 +387,10 @@
   border-top: 0.25em solid var(--text);
   border-radius: 0 0.5em 0 0;
   z-index: 1;
+}
+
+@media screen and (max-width: 700px) {
+  .card{
+    margin: 0px auto 20px auto;
+  }
 }
