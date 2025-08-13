@@ -1,6 +1,6 @@
 .flow {
   height: fit-content;
-  background-color: #fbca1f;
+  background-color: var(--primary-yellow);
   border-bottom: black 5px solid;
   display: flex;
   justify-content: right;

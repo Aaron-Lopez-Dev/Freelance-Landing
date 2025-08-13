@@ -1,0 +1,31 @@
+.outer {
+  width: 100%;
+  height: fit-content;
+  background-color: var(--primary-yellow);
+  border: 2px solid white;
+}
+
+.inner {
+  width: 90vw;
+  margin: auto;
+  max-width: 1000px;
+  display: flex;
+  border: 2px solid white;
+}
+.pricing-text,
+.pricing-card {
+  width: 50%;
+  height: fit-content;
+  padding: 10px;
+  border: 2px solid blue;
+}
+
+@media screen and (max-width: 700px) {
+  .inner {
+    flex-direction: column;
+  }
+  .pricing-text,
+  .pricing-card {
+    width: 100%;
+  }
+}

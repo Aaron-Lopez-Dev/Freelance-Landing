@@ -5,11 +5,12 @@ import { Services } from "./service-section/services";
 import { ServiceFlow } from "./service-flow-section/service-flow";
 import { Hero } from "./hero/hero";
 import { AboutMe } from "./about-me/about-me";
+import { Pricing } from './pricing-section/pricing';
 
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Navbar, Services, ServiceFlow, Hero, AboutMe],
+  imports: [RouterOutlet, Navbar, Services, ServiceFlow, Hero, AboutMe, Pricing],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })

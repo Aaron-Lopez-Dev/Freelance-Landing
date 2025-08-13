@@ -2,6 +2,12 @@
 @import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 
+:root{
+    --primary-yellow: #fbca1f;
+    --secondary-black: #1b1b1e;
+    --white--text: #fbfffe
+}
+
 body{
-    background-color: #838E83;
+   background-color: var(--secondary-black);
 }

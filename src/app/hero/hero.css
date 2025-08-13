@@ -1,5 +1,5 @@
 .outer {
-  background-color: #1b1b1e;
+  background-color: var(--secondary-black);
   padding: 120px 0px;
   width: 100%;
   height: fit-content;
@@ -21,7 +21,7 @@ h1 {
   font-style: normal;
   font-size: clamp(7rem, 6vw + 1rem, 9rem);
   line-height: 0.7778;
-  color: #fbca1f;
+  color: var(--primary-yellow);
 }
 h2 {
   color: white;
