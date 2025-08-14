@@ -7,7 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy": "ng build --configuration production --base-href /Freelance-Landing/ && npx angular-cli-ghpages --dir=dist/freelance/browser"
+    "deploy:gh": "ng build --configuration production --base-href /Freelance-Landing/ && npx angular-cli-ghpages --dir=dist/freelance/browser",
+    "deploy:sg": "ng build --configuration production && rsync -avz --delete -e 'ssh -p 18765' dist/freelance/browser/ u2225-ko1ij83evdii@ssh.itsaaronlopez.com:/home/u2225-ko1ij83evdii/www/itsaaronlopez.com/public_html/"
   },
   "private": true,
   "dependencies": {
@@ -17,6 +18,7 @@
     "@angular/forms": "^20.0.0",
     "@angular/platform-browser": "^20.0.0",
     "@angular/router": "^20.0.0",
+    "@primeuix/themes": "^1.2.3",
     "@tailwindcss/postcss": "^4.1.11",
     "flowbite": "^3.1.2",
     "postcss": "^8.5.6",

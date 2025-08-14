@@ -2,7 +2,8 @@
   background-color: var(--secondary-black);
   padding: 120px 0px;
   width: 100%;
-  height: fit-content;
+  min-height: fit-content;
+  height: 800px;
   border-bottom: 4px solid black;
   display: flex;
   justify-content: space-around;
@@ -16,7 +17,7 @@
 }
 
 h1 {
-  font-size: clamp(7rem, 6vw + 1rem, 9rem);
+  font-size: clamp(5.5rem, 6vw + 1rem, 9rem);
   line-height: 0.7778;
   color: var(--primary-yellow);
 }

@@ -148,7 +148,7 @@
   letter-spacing: 0.1em;
   transform: rotate(3deg);
   transition: all 0.3s ease;
-  width: 150px;
+
 }
 
 .card:hover .card-tag {

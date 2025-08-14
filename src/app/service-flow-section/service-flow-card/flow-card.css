@@ -53,11 +53,12 @@
 .brutalist-card__message {
   margin-top: 1rem;
   color: var(--white--text);
-  font-size: 0.9rem;
+  font-size: .9rem;
   line-height: 1.4;
   border-bottom: 2px solid var(--white--text);
   padding-bottom: 1rem;
   font-weight: 600;
+  letter-spacing: .5px;
 }
 
 .brutalist-card__actions {
